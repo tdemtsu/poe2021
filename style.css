@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   margin: 0;
@@ -96,9 +95,16 @@ input:focus, textarea:focus {
   margin-bottom: 12px;
   text-align: left;
   line-height: 1;
-  font-family: 'Playfair Display', serif;
 }
 
+.title2 {
+  font-size: 120px;
+  margin-bottom: 12px;
+  text-align: left;
+  line-height: 0.8;
+
+  font-family: 'Roboto', serif;
+}
 .orange {
   color: #9f2cd4 !important;
 }
@@ -559,6 +565,7 @@ nav {
 
 .project__description--sub-title {
   margin-top: 8px;
+  font-size: 16px;
 }
 
 .project__description--link {
@@ -693,7 +700,7 @@ footer {
 /* Small phones, tablets, large smart phones */
 @media (max-width: 768px) {
   .title {
-    font-size: 80px;
+    font-size: 70px;
   }
   .header__para {
     font-size: 20px;
